@@ -170,7 +170,7 @@ const ActivityTracker: React.FC = () => {
                 <Bar
                   dataKey="minutes"
                   name="Activity Minutes"
-                  fill="#4ECDC4"
+                  fill="#C9A84C"
                   radius={[4, 4, 0, 0]}
                 />
               </BarChart>

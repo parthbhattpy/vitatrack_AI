@@ -167,7 +167,7 @@ const WeightTracker: React.FC = () => {
                 <Line
                   type="monotone"
                   dataKey="weight"
-                  stroke="#45B7D1"
+                  stroke="#C9A84C"
                   strokeWidth={2}
                   activeDot={{ r: 6 }}
                 />

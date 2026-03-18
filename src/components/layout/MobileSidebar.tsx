@@ -50,7 +50,7 @@ const MobileSidebar: React.FC<MobileSidebarProps> = ({ isOpen, onClose }) => {
               className={({ isActive }) =>
                 `flex items-center px-4 py-2.5 text-sm font-medium rounded-md transition-colors ${
                   isActive
-                    ? "bg-gray-700 text-healthBlue"
+                    ? "bg-gray-700 text-#C9A84C"
                     : "text-gray-300 hover:bg-gray-700"
                 }`
               }
@@ -66,7 +66,7 @@ const MobileSidebar: React.FC<MobileSidebarProps> = ({ isOpen, onClose }) => {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <div className="h-8 w-8 rounded-full bg-gray-700 flex items-center justify-center">
-                  <UserRound className="h-5 w-5 text-healthBlue" />
+                  <UserRound className="h-5 w-5 text-#C9A84C" />
                 </div>
               </div>
               <div className="ml-3 flex-1">

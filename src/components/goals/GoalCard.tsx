@@ -20,15 +20,15 @@ const GoalCard: React.FC<GoalCardProps> = ({ goal, isSelected, onSelect }) => {
   const renderIcon = () => {
     switch (goal.icon) {
       case "target":
-        return <Target className="h-6 w-6 text-healthBlue" />;
+        return <Target className="h-6 w-6 text-#C9A84C" />;
       case "dumbbell":
-        return <Activity className="h-6 w-6 text-healthBlue" />;
+        return <Activity className="h-6 w-6 text-#C9A84C" />;
       case "activity":
-        return <Activity className="h-6 w-6 text-healthBlue" />;
+        return <Activity className="h-6 w-6 text-#C9A84C" />;
       case "weight":
-        return <Weight className="h-6 w-6 text-healthBlue" />;
+        return <Weight className="h-6 w-6 text-#C9A84C" />;
       default:
-        return <Target className="h-6 w-6 text-healthBlue" />;
+        return <Target className="h-6 w-6 text-#C9A84C" />;
     }
   };
 
@@ -36,8 +36,8 @@ const GoalCard: React.FC<GoalCardProps> = ({ goal, isSelected, onSelect }) => {
     <Card
       className={`cursor-pointer transition-all ${
         isSelected
-          ? "border-2 border-healthTeal shadow-md"
-          : "border border-gray-200 hover:border-healthBlue"
+          ? "border-2 border- [#E8C97A] shadow-md"
+          : "border border-gray-200 hover:border-#C9A84C"
       }`}
       onClick={() => onSelect(goal.id)}
     >
@@ -53,7 +53,7 @@ const GoalCard: React.FC<GoalCardProps> = ({ goal, isSelected, onSelect }) => {
           <div
             className={`w-6 h-6 rounded-full border-2 ${
               isSelected
-                ? "bg-healthTeal border-healthTeal"
+                ? "bg- [#E8C97A] border- [#E8C97A]"
                 : "border-gray-300"
             } flex items-center justify-center`}
           >

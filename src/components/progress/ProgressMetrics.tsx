@@ -80,9 +80,9 @@ const ProgressMetrics: React.FC = () => {
         <CardContent className="flex items-center p-6">
           <div className="p-2 rounded-full bg-healthGray mr-4">
             {isWeightLoss ? (
-              <TrendingDown className="h-6 w-6 text-healthTeal" />
+              <TrendingDown className="h-6 w-6 text- [#E8C97A]" />
             ) : (
-              <TrendingDown className="h-6 w-6 text-healthBlue" />
+              <TrendingDown className="h-6 w-6 text-#C9A84C" />
             )}
           </div>
           <div>
@@ -97,7 +97,7 @@ const ProgressMetrics: React.FC = () => {
       <Card>
         <CardContent className="flex items-center p-6">
           <div className="p-2 rounded-full bg-healthGray mr-4">
-            <Target className="h-6 w-6 text-healthBlue" />
+            <Target className="h-6 w-6 text-#C9A84C" />
           </div>
           <div>
             <p className="text-sm text-gray-500">Active Days (Week)</p>
@@ -109,7 +109,7 @@ const ProgressMetrics: React.FC = () => {
       <Card>
         <CardContent className="flex items-center p-6">
           <div className="p-2 rounded-full bg-healthGray mr-4">
-            <Activity className="h-6 w-6 text-healthTeal" />
+            <Activity className="h-6 w-6 text- [#E8C97A]" />
           </div>
           <div>
             <p className="text-sm text-gray-500">Avg. Daily Activity</p>

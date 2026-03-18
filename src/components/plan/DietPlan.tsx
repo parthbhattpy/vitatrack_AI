@@ -39,11 +39,11 @@ const DietPlan: React.FC<DietPlanProps> = ({ plan }) => {
             <div className="grid grid-cols-3 gap-4">
               <div className="bg-healthGray p-3 rounded-lg text-center">
                 <p className="text-xs text-gray-500">Protein</p>
-                <p className="font-semibold text-healthBlue">{plan.macros.protein}</p>
+                <p className="font-semibold text-#C9A84C">{plan.macros.protein}</p>
               </div>
               <div className="bg-healthGray p-3 rounded-lg text-center">
                 <p className="text-xs text-gray-500">Carbs</p>
-                <p className="font-semibold text-healthTeal">{plan.macros.carbs}</p>
+                <p className="font-semibold text- [#E8C97A]">{plan.macros.carbs}</p>
               </div>
               <div className="bg-healthGray p-3 rounded-lg text-center">
                 <p className="text-xs text-gray-500">Fats</p>

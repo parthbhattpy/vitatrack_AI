@@ -150,7 +150,7 @@ const OnboardingForm = () => {
       <Card className="w-full max-w-md mx-auto bg-gray-800 text-white">
         <CardContent className="pt-6">
           <div className="flex justify-center items-center py-16">
-            <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-healthBlue"></div>
+            <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-#C9A84C"></div>
           </div>
         </CardContent>
       </Card>
@@ -169,7 +169,7 @@ const OnboardingForm = () => {
             <div
               key={i}
               className={`w-8 h-8 rounded-full flex items-center justify-center ${
-                step >= i ? "bg-healthBlue text-white" : "bg-gray-700 text-gray-400"
+                step >= i ? "bg-#C9A84C text-white" : "bg-gray-700 text-gray-400"
               }`}
             >
               {i}

@@ -12,6 +12,7 @@ import Plan from "./pages/Plan";
 import Progress from "./pages/Progress";
 import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
+import Chat from "./pages/Chat";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -38,6 +39,7 @@ const App = () => (
           <Route path="/progress" element={<Progress />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/chat" element={<Chat />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
